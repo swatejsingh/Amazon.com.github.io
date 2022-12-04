@@ -1,0 +1,761 @@
+* {
+    margin: 0%;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    background-color: var(--primary-color);
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--tertiary-color);
+}
+
+.first {
+    width: 100%;
+    height: 56px;
+    background-color: #131a22;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first img {
+    width: 124px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex span,
+i {
+    color: white;
+}
+
+.logo {
+    flex: 0.18;
+    margin-right: 10px;
+    justify-content: space-around;
+}
+
+.map {
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.map i {
+    margin-top: 17px;
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+.map div {
+    padding: 5px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.map div span:first-child {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.map div span {
+    font-weight: bold;
+}
+
+.right {
+    justify-content: space-around;
+    flex: 0.29;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.input {
+    width: 100%;
+    background-color: white;
+    flex: 0.53;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.input input {
+    outline: none;
+    width: 90%;
+    font-size: 16px;
+    padding: 10px 2px;
+    border: none;
+}
+
+.input .fa-search {
+    color: rgb(51, 51, 51);
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #febd69;
+    border-radius: 0 5px 5px 0;
+}
+
+.input div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 1px solid gray;
+    background-color: rgb(236, 234, 234);
+    padding: 6px 0;
+}
+
+.input div span {
+    border-radius: 5px 0 0 5px;
+    color: rgb(51, 51, 51);
+    padding: 6px 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.input .fa-caret-down {
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    padding: 5px;
+}
+
+.lang {
+    padding: 0;
+    margin: 0;
+    color: gray;
+}
+
+.lang {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.right img {
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    margin: 0;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.sign {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 6px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.sign span:first-child {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.sign span {
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+}
+
+.flex .ac span {
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.fa-shopping-cart {
+    font-size: 30px;
+}
+
+.ca {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cart {
+    align-items: flex-end;
+    position: relative;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.cart p {
+    position: absolute;
+    font-weight: bolder;
+    color: #131a22;
+    top: 7px;
+    left: 23px;
+}
+
+.cart:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.logo img:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.map:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.lang:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.sign:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.lang:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.input .fa-search:hover {
+    background-color: #fdae46;
+}
+
+.input div:hover {
+    background-color: rgb(204, 202, 202);
+    color: black;
+}
+
+.En {
+    color: white;
+    height: 15px;
+    font-weight: bold;
+}
+
+.second {
+    width: 100%;
+    height: 42px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+
+}
+
+.second ul {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.second span {
+    font-size: 15px;
+}
+
+.second-1 div i {
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.second li {
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 7px 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.second-1 {
+    flex: 0.06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-1 div {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.second-2 {
+    display: flex;
+    flex: 0.74;
+    justify-content: flex-start;
+}
+
+.second-3 {
+    flex: 0.2;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.second-3 span {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.second-1 div span {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.second-1 div:hover {
+    border: 1px solid white;
+}
+
+.second-2 li:hover {
+    border: 1px solid white;
+}
+
+.second-3 span:hover {
+    border: 1px solid white;
+}
+
+.sec-1 {
+    position: relative;
+    width: 100%;
+    height: 743px;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 1519px;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 560px;
+}
+
+.image-box {
+    display: flex;
+    position: absolute;
+    animation: carousel 15s alternate infinite;
+}
+
+@keyframes carousel {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0%;
+    }
+
+    24% {
+        left: -1519px;
+    }
+
+    42% {
+        left: -1519px;
+    }
+
+    46% {
+        left: calc(-1519*2px);
+    }
+
+    62% {
+        left: calc(-1519*2px);
+    }
+
+    66% {
+        left: calc(-1519*3px);
+    }
+
+    82% {
+        left: calc(-1519*3px);
+    }
+
+    86% {
+        left: calc(-1519*4px);
+    }
+
+    100% {
+        left: calc(-1519*4px);
+    }
+}
+
+/* Light & Dark Mode Start */
+:root {
+    --primary-color: #eaeded;
+    --secondary-color: rgb(255, 255, 255);
+    --tertiary-color: black;
+    --quaternary-color: rgba(0, 0, 255, 0.736);
+}
+
+.dark-theme {
+    --primary-color: black;
+    --secondary-color: rgb(63, 63, 63);
+    --tertiary-color: white;
+    --quaternary-color: aqua;
+
+}
+
+#dark {
+    cursor: pointer;
+    width: 30px;
+}
+/* Light & Dark Mode End */
+
+.container-1 {
+    position: absolute;
+    z-index: 1;
+    top: 230px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, transparent, var(--primary-color) 30%);
+}
+
+.container-1 .para {
+    background-color: rgb(238, 234, 234);
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.container-1 div:first-child p {
+    font-size: 14px;
+    padding: 12px 0;
+}
+
+.product-comp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+
+.product-comp .box {
+    width: 346px;
+    height: 408px;
+    background-color: var(--secondary-color);
+}
+
+.box h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--tertiary-color);
+}
+
+.box a {
+    font-size: 13px;
+    margin-left: 20px;
+    display: block;
+    padding-top: 14px;
+    color: var(--quaternary-color);
+}
+
+.box-a {
+    overflow: hidden;
+    background-color: var(--secondary-color);
+}
+
+.box div img {
+    width: 153px;
+    height: 112px;
+    cursor: pointer;
+    margin-left: 12px;
+    margin-right: 0;
+}
+
+.box-a div {
+    display: inline-block;
+}
+
+.box-a div span {
+    display: block;
+    font-size: 13px;
+    margin-left: 20px;
+    color: var(--tertiary-color);
+}
+
+.box-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-b .best {
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+    height: 136px;
+    width: 342px;
+}
+
+.best h3 {
+    font-size: 21px;
+    margin: 20px;
+    margin-bottom: 15px;
+}
+
+.best button {
+    border-radius: 7px;
+    box-shadow: 1px 2px 5px rgb(211, 207, 207);
+    color: rgb(43, 42, 42);
+    background-color: #ffd814;
+    width: 303px;
+    margin-left: 20px;
+    height: 30px;
+    border: none;
+}
+
+.box.box-c img {
+    margin: 0 20px;
+    width: 313px;
+    cursor: pointer;
+    height: 290px;
+}
+
+.sec-2 {
+    width: 100%;
+    height: 315px;
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 23px;
+}
+
+.slide-sec h3 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.slide-sec {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 10px 20px;
+    overflow-x: hidden;
+    background-color: var(--secondary-color);
+    position: relative;
+}
+
+.product-slide {
+    display: flex;
+    margin-top: 5px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.product-slide::-webkit-scrollbar {
+    background-color: transparent;
+    height: 7px;
+    cursor: pointer;
+}
+
+.product-slide::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product-slide li {
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.l-btn,
+.r-btn {
+    background-color: rgb(225, 225, 225, 1);
+    height: 90px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    top: 35%;
+    position: absolute;
+    border: 3px slide transparent;
+}
+
+.l-btn {
+    border-radius: 0 5px 5px 0;
+    left: 20px;
+}
+
+.r-btn {
+    border-radius: 5px 0 0 5px;
+    right: 20px;
+}
+
+.l-btn:hover {
+    border: 3px slide rgb(2, 150, 150);
+}
+
+.r-btn:hover {
+    border: 3px slide rgb(2, 150, 150);
+}
+
+.r-btn i,
+.l-btn i {
+    color: rgb(54, 54, 54);
+    position: absolute;
+    font-size: 30px;
+    top: 35%;
+    left: 13%;
+    right: 13%;
+}
+
+.footer {
+    width: 100%;
+    height: 490px;
+    transition: all 0.2s;
+}
+
+.backtop {
+    text-align: center;
+    height: 50px;
+    background-color: #37475a;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.backtop span {
+    color: white;
+    font-size: 13.2px;
+}
+
+.backtop:hover {
+    background-color: #4d627c;
+}
+
+.detail {
+    background-color: #232f3e;
+    height: 430px;
+}
+
+.table {
+    margin: 0 150px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.table div {
+    width: 230px;
+}
+
+.t-head {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.table li {
+    color: rgb(223, 221, 221);
+    padding-top: 10px;
+    font-size: 14px;
+    list-style: none;
+}
+
+.copy {
+    background-color: #232f3e;
+    height: 90px;
+    padding: 40px;
+    text-align: center;
+}
+
+.copy span {
+    color: white;
+    font-size: 14px;
+}
+
+.line {
+    height: 0.5px;
+    border-top: 1px solid white;
+    width: 100%;
+    background-color: rgb(172, 172, 172);
+}
+
+.l-btn span {
+    font-size: 55px;
+}
+
+.r-btn span {
+    font-size: 55px;
+}
+
+/* Coupon Code */
+#coupon{
+    height: 490px;
+    width: 720px;
+    margin-left: 26%;
+    position: absolute;
+    z-index: 100;
+    margin-top: -270%;
+    background-image: url(coupon\ code.jpg);
+}
+#coupon.active{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+#coupon button {
+    height: 27px;
+    width: 27px;
+    cursor: pointer;
+    z-index: 100;
+    border-radius: 50px;
+    border: none;
+    font-size: large;
+    padding-top: 2px;
+}
+#coupon button:hover{
+    background-color: #d4d5d6;
+}
